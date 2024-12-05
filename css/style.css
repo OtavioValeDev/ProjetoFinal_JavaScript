@@ -1,0 +1,51 @@
+/* Estilo do título */
+h1 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+/* Estilo da div de exibição */
+#tela {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px;
+    padding: 10px;
+    border: 2px dashed #ccc;
+    background-color: #f9f9f9;
+}
+
+/* Estilo das imagens */
+#tela img {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+#tela img:hover {
+    transform: scale(1.1);
+    border-color: #4CAF50;
+}
+
+/* Estilo dos botões */
+input[type="button"] {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+input[type="button"]:hover {
+    background-color: #45a049;
+}
